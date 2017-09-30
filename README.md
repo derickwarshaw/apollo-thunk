@@ -30,7 +30,8 @@ export function getData(variables) {
 }
 ```
 
-```export default function reducer(state = initialState, action = {}) {
+```javascript
+export default function reducer(state = initialState, action = {}) {
      switch (action.type) {
        case LOAD:
          return {
